@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-11-08T02:14:19.933Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="EMtkfbooH2ttklELKsq_" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T03:44:57.186Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="SHXgmCdrp5Ry3iJenJfe" version="22.0.8" type="github">
   <diagram name="第 1 页" id="i8u_OBD3O_TQcKY7orfp">
     <mxGraphModel dx="1621" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-1" value="k8s集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="380" width="100" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="400" as="targetPoint" />
@@ -15,7 +12,7 @@
         <mxCell id="NINAPxGtuBQYfsfIf3ee-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-2" target="NINAPxGtuBQYfsfIf3ee-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-2" value="Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NINAPxGtuBQYfsfIf3ee-2" value="Ubuntu&lt;br&gt;k8sNodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="270" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-6">
@@ -26,7 +23,7 @@
         <mxCell id="NINAPxGtuBQYfsfIf3ee-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-6" target="NINAPxGtuBQYfsfIf3ee-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-6" value="............." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NINAPxGtuBQYfsfIf3ee-6" value="dataServer&lt;br&gt;Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="480" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
@@ -54,7 +51,7 @@
         <mxCell id="NINAPxGtuBQYfsfIf3ee-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-7" target="NINAPxGtuBQYfsfIf3ee-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-7" value="Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NINAPxGtuBQYfsfIf3ee-7" value="Ubuntu&lt;br&gt;k8sNodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="410" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-8">
@@ -76,15 +73,15 @@
         <mxCell id="NINAPxGtuBQYfsfIf3ee-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-8" target="NINAPxGtuBQYfsfIf3ee-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-8" value="Ubuntu" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NINAPxGtuBQYfsfIf3ee-8" value="Ubuntu&lt;br&gt;k8sNodes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="340" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-32" value="互通" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="95" y="448" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-33">
+        <mxCell id="NINAPxGtuBQYfsfIf3ee-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="70" y="400" as="targetPoint" />
+            <mxPoint x="40" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-33" value="webServer&lt;br&gt;Ubuntu22.04" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -94,18 +91,16 @@
           <mxGeometry x="-60" y="368" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-36" value="spray-kuboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="398" width="100" height="30" as="geometry" />
+          <mxGeometry x="-70" y="398" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-37" value="registry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-60" y="428" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NINAPxGtuBQYfsfIf3ee-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NINAPxGtuBQYfsfIf3ee-38">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="590" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NINAPxGtuBQYfsfIf3ee-38" value="" style="ellipse;whiteSpace=wrap;html=1;shadow=0;opacity=20;labelBorderColor=default;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="50" y="220" width="210" height="350" as="geometry" />
+          <mxGeometry x="400" y="220" width="100" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="NINAPxGtuBQYfsfIf3ee-46" value="k8s集群" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
